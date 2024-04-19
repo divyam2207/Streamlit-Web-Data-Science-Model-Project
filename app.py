@@ -8,6 +8,8 @@ DATA_URL = "https://drive.google.com/file/d/1i9LpCimrA-Bog_i-SDgA-0SBj0pqwWN5/vi
 
 DATA_URL = 'https://drive.google.com/uc?id=' + DATA_URL.split('/')[-2]
 
+st.write(DATA_URL)
+
 st.title("Motor Vehicle Collisions in NYC")
 st.markdown("This App is a streamlit dashboard that can be used"
 "to analyse motor vehicle collisions in NYC")
